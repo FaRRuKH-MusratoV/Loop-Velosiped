@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #16A085;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+li{
+  list-style-type: none;
+}
+.container{
+  max-width: 650px;
+  min-width: 650px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 0 ;
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 1px #186155;
+  background-image: url(../img/bicycle.png);
+  background-repeat: no-repeat;
+  /* background-position:center; */
+  background-size: 500px;
+  background-position-y:170px ;
+  background-position-x: 80px;
+}
+.list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 650px;
+}
+.icon-img{
+  margin-top: 15px;
+}
+.item{
+  list-style: none;
+}
+.icon{
+  border: 1px solid #dfdfdf;
+  padding: 10px;
+  border-radius: 50px;
+}
+.icon:active{
+  box-shadow: 0 0 0 3px  #f0f0f0;
+}
+.text{
+  color: #a7a7a7;
+  margin-left: 125px;
+  font-size: 14px;
+  display: flex;
+}
+.ulli{
+  display: flex;
+  justify-content: space-evenly;
+}
+.main{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+  line-height: 30px;
+
+
+}
+.main-class{
+  color: #5c5c5c;
+  line-height: 45px;
+}
+.clas-main{
+  margin-right: 160px;
+  font-weight: bold;
+}
+.castelli{
+  margin-right: 20px;
+}
+.bold{
+  font-weight: bold;
+}
